@@ -22,7 +22,7 @@ p{
 }
 /* hero banner */
 .dig_hero_banner_row{
-    background: url("assets/hero_first_vackground.jpg");
+    background: url("https://shahindpi.github.io/digdefence/Assets/hero_first_vackground.jpg");
     background-position: 0;
     background-repeat: no-repeat;
     min-height: 400px;
@@ -34,7 +34,7 @@ p{
     display: none;
 }
 .dig_hero_banner .dig_hero_banner_text_container{
-    background: url("assets/Hero-bg.png");
+    background: url("https://shahindpi.github.io/digdefence/Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: 0;
     min-height: 400px;
@@ -203,7 +203,7 @@ p{
 /* tips and trick */
 #dig_tip{
     margin-top:100px;
-    background: url("Assets/embed-bg.png");
+    background: url("https://shahindpi.github.io/digdefence/Assets/embed-bg.png");
     background-size: cover;
     background-position: bottom -40px right 0;
     background-repeat: no-repeat;

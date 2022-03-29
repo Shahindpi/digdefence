@@ -1,3 +1,28 @@
+/*
+ * Legal Disclaimer
+ *
+ * These web fonts are licensed exclusively for use on the following:
+ * All domains belonging to Petco
+ *
+ * It is strictly forbidden to download or use these fonts on any other website domain or media.
+ *
+ * While the @font-face statements below may be modified by the client, this
+ * disclaimer may not be removed.
+ *
+ * Lineto.com, 2020
+ */
+
+
+ @font-face {
+	font-family: PetcoCircularTT-Regular;
+	src: url(Assets/fonts/PetcoCircularTT-Regular.woff2) format("woff2"), url(Assets/fonts/PetcoCircularTT-Regular.woff) format("woff")
+}
+
+@font-face {
+	font-family: PetcoCircularTT-Bold;
+	src: url(Assets/fonts/PetcoCircularTT-Bold.woff2) format("woff2"), url(Assets/fonts/PetcoCircularTT-Bold.woff) format("woff")
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -83,23 +108,21 @@ p{
 }
 
 /* category section */
-.dig_category{
-    margin-top: 40px;
-}
 .dig_container{
     position: relative;
 }
 .dig_section_title_container{
-    margin-bottom: 40px;
+    padding: 50px 15px;
     position: relative;
     z-index: 1;
     display: flex;
     justify-content: center;
 }
+
 .dig_section_title_container a{
     text-decoration: none;
     font-size: 25px;
-    font-family: Petco Circular CAP;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     font-weight: bold;
     color: #000;
 }
@@ -116,7 +139,7 @@ p{
     height: 291px;
     width: 100%;
     position: absolute;
-    top:159px;
+    top:215px;
 }
 .dig_row{
     display: flex;
@@ -126,6 +149,9 @@ p{
     width: 249px;
     max-width: 100%;
     text-align: center;
+}
+.dig_card_body a p{
+    line-height: 20px;
 }
 .dig_card .dig_card_img{
     width: 177px;
@@ -138,7 +164,7 @@ p{
 .dig_row .dig_card .card_body_title{
     font-size: 18px;
     font-weight: bold;
-    font-family: Petco Circular CAP;
+    font-family: "PetcoCircularTT-Bold", arial !important;
     color: #000;
 }
 .dig_card_cta a{
@@ -146,18 +172,18 @@ p{
     font-weight: bold;
     text-transform: capitalize;
     text-decoration: underline;
-    font-family: PetcoCircular TT;
+    font-family: "PetcoCircularTT-Regular", arial !important;
     color: #001952;
 }
 .dig_card .dig_card_body p{
     font-size: 16px;
     font-family: Petco Circular CAP;
     color: #000;
-    min-height: 75px;
+    min-height: 60px;
 }
 /* find your defence */
 .dig_find_defence{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .dig_defence_container{
     width: 100%;
@@ -177,6 +203,12 @@ p{
     max-width: 100%;
     margin: auto;
 }
+.dig_defence_card_description h3{
+    font-family: "PetcoCircularTT-Bold", arial !important;
+}
+.dig_defence_card a p{
+    font-family: "PetcoCircularTT-Regular", arial !important;
+}
 .card_top_img img{
     width: 100%;
     max-width: 100%;
@@ -193,7 +225,9 @@ p{
     font-size:13px;
     color: #000;
     line-height:18px;
-    
+    margin: 0;
+    padding: 5px 0;
+    font-family: "PetcoCircularTT-Regular", arial !important;
 }
 .brif_text{
     text-align:top;
@@ -214,6 +248,10 @@ p{
 .dig_tip_container{
     width:80%;
     margin: auto;
+}
+.dig_tip .dig_tip_container p{
+    max-width: 400px;
+    margin: 0 auto;
 }
 .dig_tip_row{
     display: grid;
@@ -241,7 +279,6 @@ p{
 /* sustainable  */
 .dig_sustainable_container{
     background: rgba(114,197,147,.2);
-    padding-top:40px;
 }
 .dig_sustainable_content{
     width: 100%;
@@ -262,19 +299,20 @@ p{
 }
 .dig_sustainable .dig_card .dig_card_body{
     background: #fff;
-    padding: 0 10px;
-    padding-bottom: 10px;
+    padding: 0 20px 20px;
     text-align:left;
 }
 .dig_sustainable .dig_card .dig_card_body p{
     min-height: auto;
+    line-height: 20px;
 }
 .dig_sustainable .dig_cta{
     margin-top:30px;
 }
 p.dig_sustainable_text{
     text-align:center;
-    padding-bottom: 25px;
+    padding: 40px 15px;
+    margin: 0;
 }
 
 /* 4k device styling */
@@ -342,9 +380,12 @@ p.dig_sustainable_text{
         display: block;
     }
     .dig_hero_banner_text_container .banner_text h2 {
-        font-size: 30px;
+        font-size: 28px;
         color: #001952;
         font-weight: bold;
+    }
+    .dig_hero_banner_text_container .banner_text{
+        padding: 0 15px;
     }
     .dig_hero_banner_text_container .dig_cta a{
         padding: 10px 40px;
@@ -414,6 +455,10 @@ p.dig_sustainable_text{
    }
    .dig_hero_banner .dig_hero_banner_text_container .banner_logo{
        display: none;
+   }
+
+   .dig_hero_banner .dig_hero_banner_text_container .banner_text{
+       padding: 20px 10px 20px 0;
    }
    
     .dig_hero_banner_text_container .banner_text h2{
@@ -499,6 +544,15 @@ p.dig_sustainable_text{
     }
     .dig_tip_content{
         min-height:auto;
+    }
+    .dig_tip_content h2, p{
+        padding: 0 15px;
+    }
+    .dig_defence_card .dig_card_body p{
+        padding : 0;
+    }
+    .dig_tip_content p{
+        padding: 0 15px 30px;
     }
     .dig_tip_container{
         width: 100%;

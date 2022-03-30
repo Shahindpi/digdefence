@@ -592,6 +592,7 @@ p.dig_sustainable_text{
     .dig_sustainable .dig_cta a{
         margin-top:30px;
         padding:0;
+        text-transform: capitalize;
     }
 }
 

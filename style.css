@@ -213,9 +213,9 @@ p{
     width: 100%;
     max-width: 100%;
 }
-.dig_defence_card .dig_card_body p{
+.dig_defence_card .dig_card_body p a{
     font-size: 13px;
-    font-family: Petco Circular CAP;
+    font-family: "PetcoCircularTT-Regular", arial !important;
     min-height: 48px;
 }
 .dig_defence_card .dig_card_cta{

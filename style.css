@@ -218,6 +218,9 @@ p{
     font-family: "PetcoCircularTT-Regular", arial !important;
     min-height: 48px;
 }
+.dig_card_body .card_body_title{
+    font-family: "PetcoCircularTT-Bold", arial !important;
+}
 .dig_defence_card .dig_card_cta{
     margin-bottom: 20px;
 }
@@ -503,6 +506,7 @@ p.dig_sustainable_text{
     .dig_row .dig_card .dig_card_body {
         padding: 0 10px;
     }
+ 
     .dig_section_title_container{
         text-align: center;
     }

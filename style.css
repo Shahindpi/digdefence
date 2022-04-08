@@ -279,6 +279,10 @@ p{
     text-align:center;
     min-height:315px;
 }
+.dig_tip_content h2 a{
+    font-family: "PetcoCircularTT-Bold", arial !important;
+    font-size: 25px;
+}
 /* sustainable  */
 .dig_sustainable_container{
     background: rgba(114,197,147,.2);
@@ -553,6 +557,7 @@ p.dig_sustainable_text{
     .dig_tip_content h2, p{
         padding: 0 15px;
     }
+ 
     .dig_defence_card .dig_card_body p{
         padding : 0;
     }
